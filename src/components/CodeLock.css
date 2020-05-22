@@ -1,0 +1,68 @@
+.code-lock {
+    margin: 10rem 20rem;
+}
+
+.number-wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    width: 18rem;
+}
+
+.number {
+    flex: 0 0 auto;
+    width: 6rem;
+    height: 6rem;
+    padding: .5rem;
+    font-size: 1rem;
+    background: #d2d0d0;
+    border: 1px;
+    border-style: solid;
+
+}
+
+.lock-icon {
+    flex: 0 0 auto;
+    width: 6rem;
+    height: 6rem;
+    background-color: #d2d0d0;
+    vertical-align: middle;
+    border: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.locked {
+    background-image: url('../locked.png');
+}
+
+.lock-open {
+    background-image: url('../lock_open.png');
+}
+
+.two-number-wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px 80px;
+    justify-content: left;
+    margin: 2rem;
+    text-align: center
+}
+
+.two-number {
+    min-width: 6rem;
+    padding: .5rem;
+    font-size: 1rem;
+    background: #d2d0d0;
+    border: 1px;
+    border-style: solid;
+}
+
+.two-lock-icon {
+    background: #d2d0d0;
+    vertical-align: middle;
+    border: 1px;
+    border-style: solid;
+    text-align: center;
+}
